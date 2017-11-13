@@ -1,0 +1,95 @@
+.container-ceramic{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.container-ceramic a{
+    text-decoration: none;
+}
+.container-ceramic a:hover{
+    text-decoration: none;
+    color: red;
+}
+.ceramic-content{
+    width: 1180px;
+    height: 380px;
+    padding: 40px 10px;
+    margin: auto;
+    position: relative;
+    background-color: #fcfcfc;
+}
+.ceramic-content-each{
+    width: 50%;
+    position: relative;
+    float: left;
+    padding: 0 0px 10px 0px;
+}
+.ceramic-content-each-box{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.ceramic-content-each-box-title{
+    width: 100%;
+    font-size: 25px;
+    color: #414141;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.ceramic-content-each-box-content-left{
+    width: 45%;
+    position: relative;
+    float: left;
+}
+.ceramic-content-each-box-content-right{
+    width: 55%;
+    position: relative;
+    float: left;
+    font-size: 14px;
+    color: #414141;
+    letter-spacing: 1px;
+}
+/*---------footer-----------*/
+.footer{
+    background-color: #fc2519;
+    width: 1180px;
+    margin: auto;
+    padding: 9px 10px;
+    position: relative;
+    font-family: "proximanova";
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    height: 34px;
+    margin-bottom: 10px;
+}
+.footer a{
+    color: white;
+    font-weight: bold;
+}
+.footer a:hover{
+    color: black;
+}
+.footer-left{
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.footer-right{
+    width: 60%;
+    height: 100%;
+    float: right;
+    position: relative;
+    text-align: right;
+}
+/*---------wrapper----------*/
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: -webkit-linear-gradient(left, white, grey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,  white, grey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,  white, grey, white); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right,  white, grey, white); /* Standard syntax (must be last) */
+}

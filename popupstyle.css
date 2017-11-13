@@ -1,0 +1,16 @@
+/*---------pop-up--------*/
+.popup{
+    position: fixed;
+    width: 300px;
+    height: 0px;
+    overflow: hidden;
+    background-color: aliceblue;
+    padding: 0px;
+    bottom: 20px;
+    transition: all 0.4s ease-out;
+    left: 20px;
+}
+.popup img{
+    width: 260px;
+    height: 100px;
+}
