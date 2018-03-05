@@ -1,0 +1,790 @@
+
+
+/*# sourceMappingURL=custom.css.map */
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('../font/Gotham-Book.eot?#iefix') format('embedded-opentype'), 
+        url('../font/Gotham-Book.woff') format('woff'), 
+        url('../font/Gotham-Book.ttf')  format('truetype'),
+        url('../font/Gotham-Book.svg#svgFontName') format('svg');
+}
+@font-face {
+    font-family: 'century';
+    src: url('../font/CenturySchoolBook.ttf')  format('truetype');
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans:100,200,300,400,500,600,700,800,900');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer{
+    background-color: #E42029;
+    padding: 70px 0 70px 0;
+    color: white;
+}
+/* general */
+  
+  .parallax-text img:nth-of-type(1), .parallax-text img:nth-of-type(2){
+    height: 98px;
+    position: absolute;
+  }
+  .parallax-text p:nth-of-type(1){
+    position: absolute;
+    font-family: 'century';
+    font-size: 61px;
+    color: #f7931e;
+    opacity: .3;
+    letter-spacing: 10px;
+    font-style: italic;
+    margin: 0;
+  }
+/* section-1 */
+.section-1{
+  padding: 44vh 0;
+}
+.section-1 .background-yellow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.section-1 .background-yellow .col-sm-6{
+  padding: 50vh 0;
+  background-color: #ffce00;
+}
+.section-1 .background-yellow .col-sm-6::after{
+  content: '';
+  position: absolute;
+    width:0;
+    height:100%;
+    top: 0;
+    right: -24vw;
+    border-bottom:100vh solid transparent;
+    border-left:24vw solid #ffce00;
+}
+.section-1 .background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 135%;
+  width: 100%;
+  background: url("../img/machine-man.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.section-1 .image-man{
+  position: absolute;
+  bottom: 0;
+}
+.copyright{
+    background-color: #FFCE00;
+    color: #E42029;
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding: 15px 0px 0px 0px; 
+}
+.copyright a{
+    text-decoration: none;
+    color: #E42029;
+}
+.lines{
+    padding: 40px 0px 60px 0px;
+}
+.hero-1-text{
+    font-size: 21px !important;
+    letter-spacing: 6px;
+    line-height: 21px;
+}
+.section-1 .parallax-text{
+  position: absolute;
+  bottom: -200px;
+  right: 40px;
+  text-align: right;
+}
+.section-1 .parallax-text img:nth-of-type(1){
+  right:150px;
+  bottom:40px;  
+}
+.section-1 .parallax-text img:nth-of-type(2){
+  right:0px;
+  bottom:-25px;
+}
+.section-1 .parallax-text p:nth-of-type(1){
+  right:200px;
+  bottom:0px;
+}
+/* section-2 */
+.section-2{
+  position: relative;
+}
+.section-2 .gnc{
+  padding: 80px 0 0 80px;
+}
+.section-2 .gnc .img-gnc{
+  height: 768px;
+}
+.section-2 .glass-object{
+  width: 60%;
+    position: absolute;
+    left: -40px;
+    transform: translate(0, -50%);
+    top: 50%;
+}
+.section-2 .ceramic-object{
+  width: 50%;
+    position: absolute;
+    bottom: -8%;
+    right: -13%;
+}
+.section-2 .gnc-text{
+  margin-top: 35vh;
+  background-color: #a0000c;
+  padding: 80px 40px 50px 70px;
+}
+.section-2 .gnc-text .text{
+  font-size: 20px;
+  font-family: 'gothambook';
+  letter-spacing: 8px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 60px;
+  line-height: 24px;
+}
+.section-2 .gnc-text .mini-text{
+  font-size: 12px;
+  font-family: 'Work Sans';
+  letter-spacing: 6px;
+  color: white;
+  font-weight: 500;
+}
+.section-2 .parallax-text{
+  position: absolute;
+  bottom: -150px;
+  left: 40px;
+  text-align: right;
+}
+.section-2 .parallax-text img:nth-of-type(1){
+  left:150px;
+  bottom:40px;  
+}
+.section-2 .parallax-text img:nth-of-type(2){
+  left:0px;
+  bottom:-25px;
+}
+.section-2 .parallax-text p:nth-of-type(1){
+  left:200px;
+  bottom:0px;
+}
+/* section-3 */
+.section-3{
+  margin-top: 140px;
+  position: relative;
+}
+.section-3 .col-sm-6:nth-child(1){
+  padding: 30vh 8vw 20vh 8vw;
+  background-color: #a0000c;
+}
+.section-3 .title{
+  font-size: 20px;
+  font-family: 'gothambook';
+  letter-spacing: 6px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+.section-3 .text{
+  font-size: 14px;
+  font-family: 'Work Sans';
+  line-height: 21px;
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.section-3 .ch-text{
+  font-size: 18px;
+  font-family: 'Work Sans';
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 120px;
+}
+.section-3 .link{
+  font-size: 12px;
+  font-family: 'gothambook';
+  letter-spacing: 6px;
+  color: white;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.section-3 .col-sm-6:nth-child(2){
+  padding: 10vh 12vw 10vh 12vw;
+}
+.section-3 .service img{
+  width: 80px;
+  margin-bottom: 10px;
+}
+.section-3 .service .title{
+  font-size: 20px;
+  font-family: 'gothambook';
+  letter-spacing: 6px;
+  color: #a0000c;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+.section-3 .service .text{
+  font-size: 14px;
+  font-family: 'Work Sans';
+  line-height: 21px;
+  color: #a0000c;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.section-3 .parallax-text{
+  position: absolute;
+  top: 0;
+  left: 40px;
+  text-align: right;
+}
+.section-3 .parallax-text img:nth-of-type(1){
+  left:80px;
+  top:40px;  
+}
+.section-3 .parallax-text img:nth-of-type(2){
+  left:50vw;
+  top:20vh;
+  height: 149px;
+}
+.section-3 .parallax-text p:nth-of-type(1){
+  left:20vw;
+  top:12vh;
+}
+/* about */
+.product-title{
+    font-size: 3.5rem !important;
+    letter-spacing: -2px;
+    line-height: 4rem;
+    margin-bottom: 40px;
+    font-weight:700;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.about-text{
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.product-text{
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+/* case */
+.case .container{
+  position: relative;
+}
+.case{
+  height: 768px;
+  background-color: #e42029;
+  color: #e42029;
+}
+.case .bg-yellow{
+  background-color: #ffce00;
+  height: 768px;
+}
+.case .white-content{
+  background-color: white;
+  margin-top: 80px;
+  padding: 40px 0 60px 0;
+}
+.case .case-title{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
+}
+.case .case-text{
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Work Sans';
+}
+.case .case-title-below{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -1px;
+  color: white;
+  margin: 0;
+}
+.case .case-text-below{
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.case .case-text-below:nth-child(4){
+  margin-bottom: 15px;
+}
+.case .case-link-below{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.case .case-link-below p{
+  width: 24.5px;
+  float: left;
+  margin: 11px 10px 0 0;
+  border-top: 1.5px solid white;
+}
+.case .bg-pic{
+  position: absolute;
+  margin-top: 120px;
+}
+
+.contact-title{
+    position:absolute;top:50%;transform:translate(0%,-50%);
+}
+.contact input[type="text"]{
+    width: 100%;
+    border: 0;
+    height: 54px;
+    font-weight: 700;
+    padding: 20px 0 20px 27px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #E42029;
+    color: #E42029;
+    font-size: 14px;
+    outline: none;
+}
+::placeholder{
+    color: #E42029;
+}
+.contact input[type="submit"]{
+    position: relative;
+    width: 101px;
+    font-weight: 700;
+    height: 35px;
+    background-color: #FFCE00;
+    color: #E42029;
+    padding: 1px;
+}
+.contact textarea{
+    width: 100%;
+    border: 0;
+    height: 180px;
+    font-weight: 700;
+    padding: 20px 0 20px 27px;
+    margin-bottom: 60px;
+    border-bottom: 3px solid #E42029;
+    color: #E42029;
+    font-size: 14px;    
+    outline: none;
+    resize: none;
+}
+.footer-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #FFCE00;
+}
+footer li, footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.about-link{
+    position: relative;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FFCE00;
+    color: #E42029;
+    padding: 1px;
+}
+.office p{
+    margin-bottom: 5px;
+}
+.about-link a{
+    padding: 0px 10px 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.lines-title{
+    font-size:20px;
+    font-weight:700;
+    color: #E42029;
+    padding:20px 0 10px 0;
+    margin: 0;
+}
+.lines-text{
+    font-size:16px;
+    color: #E42029;
+    line-height: 20px;
+    margin:0;
+}
+.product-left-row{
+    padding:184px 0;
+}
+.line{
+    width: 58px;
+    height: 8px;
+    background-color: #E42029;
+    margin-bottom:30px;
+}
+.product-chemical{
+    background-image: url('../img/general-chemical-bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 110px 60px !important;
+}
+.product-glass{
+    background-image: url('../img/glass-industry-bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 72px 0px 315px 60px !important;
+}
+.product-ceramic{
+    background-image: url('../img/ceramic-industry-bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 72px 0px 315px 60px !important;
+}
+.news-title{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+.news-text{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.partner{
+    padding: 40px 0px 60px 0px;
+}
+
+@media screen and (max-width: 1199px){
+    .nav-link{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 991px){
+    .nav-link{
+        font-size: 11px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 0;
+    }
+    .hero-1-text{
+        font-size: 2.5rem !important;
+        line-height: 3rem;
+    }
+    .about{
+        padding: 40px 0;
+    }
+    .news{
+        padding: 40px 0;
+    }
+    .product-left-row{
+        padding: 80px 0;
+    }
+    .product-title{
+        font-size: 2.5rem !important;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+    .product-chemical{
+        padding: 30px 0 60px 40px !important;
+    }
+    .product-glass{
+        padding: 50px 0 185px 40px !important;
+    }
+    .product-ceramic{
+        padding: 50px 0 185px 40px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .nav-link{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .navbar-brand img{
+        height: 45px;
+    }
+    .navbar-toggler{
+        font-size: 0.85rem;
+        padding: 0.25rem 0.50rem;
+    }
+    .hero-1 .container img{
+        height: 50px;
+    }
+    .hero-1-text{
+        font-size: 1.9rem !important;
+        line-height: 2.4rem;
+        padding-top: 20px;
+    }
+    .about-title{
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .about-text{
+        font-size: 12px;
+    }
+    .about-link{
+        width: 135px;
+        height: 27px;
+    }
+    .about-link a{
+        font-size: 15px;
+        padding: 0 20px 0 10px;
+    }
+    .about{
+        padding: 40px 0;
+    }
+    .lines-title{
+        font-size: 17px;
+    }
+    .lines-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .news{
+        padding: 15px 0;
+    }
+    .product-left-row{
+        padding: 40px 0;
+    }
+    .product-title{
+        font-size: 1.9rem !important;
+        line-height: 2.4rem;
+        margin-bottom: 20px;
+    }
+    .product-text{
+        font-size: 12px;
+        margin-bottom:20px;
+    }
+    .line{
+        width: 48px;
+        height: 4px;
+        margin-bottom: 20px;
+    }
+    .product-chemical{
+        padding: 20px 0 40px 35px !important;
+    }
+    .product-glass{
+        padding: 20px 0 150px 35px !important;
+    }
+    .product-ceramic{
+        padding: 20px 0 150px 35px !important;
+    }
+    .news-title{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .news-text{
+        font-size: 12px;
+    }
+    .contact{
+        padding: 50px 0 25px 0;
+    }
+    .contact input[type="text"]{
+        height: 40px;
+        padding: 10px 0 10px 18px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .contact input[type="submit"]{
+        position: relative;
+        width: 91px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .contact textarea{
+        height: 100px;
+        padding: 10px 0 10px 18px;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    footer{
+        padding: 40px 0;
+    }
+    footer .container .row{
+        text-align: center;
+    }
+    .office{
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    footer li{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 575px){
+    .nav-link{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .navbar-brand img{
+        height: 55px;
+    }
+    .navbar-toggler{
+        font-size: 0.85rem;
+        padding: 0.25rem 0.50rem;
+    }
+    .hero-1{
+        background:none;
+    }
+    .hero-1 .container img{
+        height: 50px;
+    }
+    .hero-1-text{
+        font-size: 2.5rem !important;
+        line-height: 3rem;
+        padding-top: 20px;
+        text-align: center !important;
+    }
+    .about-title{
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .about-text{
+        font-size: 12px;
+    }
+    .about-link{
+        width: 135px;
+        height: 27px;
+        margin-bottom: 20px;
+    }
+    .about-link a{
+        font-size: 15px;
+        padding: 0 20px 0 10px;
+    }
+    .about{
+        padding: 40px 0;
+    }
+    .lines {
+        padding: 40px 10vw 60px 10vw;
+    }
+    .lines-title{
+        font-size: 17px;
+    }
+    .lines-text{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .news{
+        padding: 30px 0;
+        text-align: center !important;
+    }
+    .product-left-row{
+        padding: 40px 0;
+    }
+    .product-title{
+        font-size: 2.5rem !important;
+        line-height: 3rem;
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+    .product-text{
+        font-size: 12px;
+        margin-bottom:20px;
+    }
+    .line{
+        width: 48px;
+        height: 4px;
+        margin-bottom: 20px;
+    }
+    .product-chemical{
+        padding: 20px 0 40px 35px !important;
+    }
+    .product-glass{
+        padding: 20px 0 40px 35px !important;
+    }
+    .product-ceramic{
+        padding: 20px 0 40px 35px !important;
+    }
+    .news-title{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .news-text{
+        font-size: 12px;
+    }
+    .contact{
+        padding: 50px 10vw 25px 10vw;
+        min-width: 300px;
+    }
+    .contact-title{
+        position: relative;
+        top: auto;
+        transform: none;
+        min-width: 216px;
+    }
+    .contact input[type="text"]{
+        height: 40px;
+        padding: 10px 0 10px 18px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .contact input[type="submit"]{
+        position: relative;
+        width: 91px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .contact textarea{
+        height: 100px;
+        padding: 10px 0 10px 18px;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    footer{
+        padding: 40px 0;
+    }
+    footer .container .row{
+        text-align: center;
+    }
+    .office{
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    footer li{
+        margin-left: 15px;
+    }
+    r{
+        color:#E42029;
+    }
+}
